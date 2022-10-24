@@ -5,7 +5,7 @@ import { globalStyles } from "../styles/global"
 
 
 
-import { Container } from "../styles/style/app"
+import { Container } from "../styles/pages/app"
 
 
 globalStyles()

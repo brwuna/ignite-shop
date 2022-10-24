@@ -2,7 +2,7 @@ import Image from "next/image";
 import { GetStaticProps } from "next";
 import Link from "next/link";
 import Head from "next/head";
-import { HomeContainer, Product } from "../styles/style/home";
+import { HomeContainer, Product } from "../styles/pages/home";
 
 import { useKeenSlider } from 'keen-slider/react'
 import 'keen-slider/keen-slider.min.css'
@@ -56,11 +56,6 @@ export default function Home({ products }: HomeProps) {
                     <strong>{product.name}</strong>
                     <span>{product.price}</span>
                   </div>
-                  {/* <CartButton 
-                    color="green"
-                    disabled={checkItemExistsInCart(product.id)} 
-                    onClick={(event) => handleAddToCart(event, product)} 
-                  /> */}
                   <ButtonCartHome
                     disabled={checkItemExistsInCart(product.id)} 
                     onClick={(event) => handleAddToCart(event, product)}
