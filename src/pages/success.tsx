@@ -4,7 +4,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Stripe from "stripe";
 import { stripe } from "../lib/stripe";
-import { CompleteOrderContainer, ImageContainer, ImagesContainer } from "../styles/pages/completeOrder";
+import { CompleteOrderContainer, ImageContainer, ImagesContainer } from "../styles/style/completeOrder";
 
 interface SuccessProps {
     customerName: string;

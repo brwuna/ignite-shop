@@ -3,7 +3,7 @@ import Image from "next/image";
 import Head from "next/head"
 import Stripe from "stripe";
 import { stripe } from "../../lib/stripe";
-import { ImageContainer, ProductContainer, ProductDetails } from "../../styles/pages/product";
+import { ImageContainer, ProductContainer, ProductDetails } from "../../styles/style/product";
 import { useRouter } from "next/router";
 import { useCart } from "../../hooks/useCart";
 import { IProduct } from "../../contexts/CartContext";

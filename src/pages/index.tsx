@@ -2,7 +2,7 @@ import Image from "next/image";
 import { GetStaticProps } from "next";
 import Link from "next/link";
 import Head from "next/head";
-import { HomeContainer, Product } from "../styles/pages/home";
+import { HomeContainer, Product } from "../styles/style/home";
 
 import { useKeenSlider } from 'keen-slider/react'
 import 'keen-slider/keen-slider.min.css'
