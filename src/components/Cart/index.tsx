@@ -32,6 +32,7 @@ export function Cart() {
             window.location.href = checkoutUrl
         } catch(err) {
             setIsCreatingCheckoutSession(false);
+
             alert('Falha ao redirecionar ao checkout!')
         }
     }
@@ -84,7 +85,7 @@ export function Cart() {
                                 <p>{formattedCartTotal}</p>
                             </div>
                         </FinalizationDetails>
-                        <button onClick={handleCheckout} disabled={isCreatingCheckoutSession || cartItemsQuantity <= 0}>Finalizar compra</button>
+                            <button onClick={handleCheckout} disabled={isCreatingCheckoutSession || cartItemsQuantity <= 0}>Finalizar compra</button>
                     </CartFinalization>
                 </CartContent>
             </Dialog.Portal>

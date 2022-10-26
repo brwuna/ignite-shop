@@ -4,7 +4,6 @@ import Head from "next/head"
 import Stripe from "stripe";
 import { stripe } from "../../lib/stripe";
 import { ImageContainer, ProductContainer, ProductDetails } from "../../styles/pages/product";
-import { useRouter } from "next/router";
 import { useCart } from "../../hooks/useCart";
 import { IProduct } from "../../contexts/CartContext";
 
@@ -46,7 +45,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
         paths: [
             {
                 params: {
-                    id: 'prod_MeioSuVrHFUcBv',
                 }
             }
         ],
