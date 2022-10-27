@@ -4,6 +4,6 @@ Desafio da Rocketseat - Ignite, adicionando novas funcionalidades ao Projeto 4 d
 
 ### Foi utilizado:
 - Next;
-- Stitches;
-- Radix;
 - Stripe;
+- Radix;
+- Stitches;
